@@ -5,14 +5,13 @@ body
 	padding: 0;
 
 }
-/* div
+#root
 {
 	width:100%;
   	height: 100vh;
   	display: flex;
-  	justify-content: center;
-  
-} */
+  	justify-content: center; 
+}
 
 #m1_body{
 	display: flex;

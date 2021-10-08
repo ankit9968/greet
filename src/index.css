@@ -1,16 +1,51 @@
 body
 {
 	background-color: pink;
-	box-sizing: border-box;
 	margin: 0;
-	padding: 0%;
+	padding: 0;
 
 }
-div
-{width:100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
+/* div
+{
+	width:100%;
+  	height: 100vh;
+  	display: flex;
+  	justify-content: center;
   
-}
+} */
 
+#m1_body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: auto;
+	margin: 0;	padding: 0;
+	background-image: url(img1.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+#m2_body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50vh;
+	width: auto;
+	margin: 0;	padding: 0;
+}
+#m3_body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: auto;
+	margin: 0;	padding: 0;
+	background-image: url(img2.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+.w_msg
+{
+	font-size: 40px;
+	background:rgba(255,255,255,0.6);
+}

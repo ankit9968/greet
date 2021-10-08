@@ -44,8 +44,19 @@ body
 	background-attachment: fixed;
 	background-size: cover;
 }
-.w_msg
+.w1_msg
 {
+	font-size: 40px;
+	background:rgba(255,255,255,0.6);
+}
+.w2_msg
+{
+	font-size: 60px;
+	background:rgba(00,0,0,0.6);
+}
+.w3_msg
+{
+	border-radius: 25%;
 	font-size: 40px;
 	background:rgba(255,255,255,0.6);
 }

@@ -32,6 +32,7 @@ body
 	height: 50vh;
 	width: auto;
 	margin: 0;	padding: 0;
+	background-color: black;
 }
 #m3_body{
 	display: flex;
@@ -44,8 +45,37 @@ body
 	background-attachment: fixed;
 	background-size: cover;
 }
-.w_msg
+.w1_msg
 {
+	padding: 0 10px 0 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 80px;
+	
+	color: white;
+	
+	mix-blend-mode: darken;
+	
+	-webkit-text-stroke-color: green;
+	-webkit-text-stroke-width: 1px;
+
+	background:rgba(0,0,0,1);
+}
+.w2_msg
+{
+	background-image: url(img3.jpg);
+	background-size: cover;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-text-stroke-color: white;
+	-webkit-text-stroke-width: 1px;
+	font-size:200px;
+	font-weight:bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.w3_msg
+{
+	font-family: Arial, Helvetica, sans-serif;
+	border-radius: 25%;
 	font-size: 40px;
 	background:rgba(255,255,255,0.6);
 }

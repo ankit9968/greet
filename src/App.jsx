@@ -8,11 +8,11 @@ const cssstyle={};
 if(currdate>=0 && currdate<12)
    {
    	greeting="Good Morning";
-   	cssstyle.color="green";
+   	cssstyle.color="orange";
    }
      else if(currdate>=12 && currdate<18){
      	greeting="Good Afternoon";
-     	cssstyle.color="orange";
+     	cssstyle.color="yellow";
 
      }
      else

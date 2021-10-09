@@ -18,7 +18,7 @@ if(currdate>=0 && currdate<12)
      else
      {
      	greeting="Good Night";
-     	cssstyle.color="blue";
+     	cssstyle.color="red";
      }
      const  App=()=>{
        return(
